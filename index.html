@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>What's In A Motor</title>
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link href='http://fonts.googleapis.com/css?family=Marvel|Pompiere|Convergence' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+	<!-- Navigation -->
+	<div class="container-nav">
+		<div class="fixed">
+			<div class="title">
+				<a href="index.html">
+					<img src="img/motorLogo.png" />
+				</a>
+			</div>
+			<div class="navContainer">
+				<div class="nav"><a href="#the-components">THE COMPONENTS</a></div>
+				<div class="nav"><a href="#working-principle">WORKING PRINCIPLE</a></div>
+				<div class="nav"><a href="#the-science">THE SCIENCE</a></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- The Coil -->
+	<article id="the-coil">
+		<div class="container">
+			<img src="img/coil.png">
+		</div>
+	</article>
+
+	<!-- The Components -->
+	<article id="the-components">
+		<div class="container">
+			<div class="container-body">
+				<div class="slides">
+					<div class="slides_container">
+					<!-- Slide #1 -->
+						<div class="slide">
+							<img src="img/components2.jpg">
+						</div>
+						<!-- Slide #2 -->
+						<div class="slide">
+							<img src="img/components1.jpg">
+						</div>
+					</div>
+					<!-- Slides Nav -->
+					<a href="#" class="prev"><img src="img/arrow-prev.png" alt="Arrow Prev"></a>
+					<a href="#" class="next"><img src="img/arrow-next.png" alt="Arrow Next"></a>
+				</div>
+			</div>
+		</div>
+	</article>
+
+
+	<article id="working-principle">
+		<div class="container">
+			<div class="container-body">
+				<div id="vid">
+					<div class="vid_container">
+						<iframe src="http://player.vimeo.com/video/35400245?title=0&amp;byline=0&amp;portrait=0" width="960" height="588" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+
+	<article id="the-science">
+		<div class="container">
+			<div class="container-body">
+				<div class="slides">
+					<div class="slides_container">
+						<!-- Slide #1 -->
+						<div class="slide">
+							<img src="img/induction.gif">
+							<div class="caption">
+								<p>Current traveling through a length of wire creates a magnetic field along it's axis. The strength of the magnetic field is proportional to the current flowing through it and can be further increased by winding the wire into a loop. This phenomenon was discovered by André-Marie Ampère.
+								</p>
+							</div>
+						</div>
+						<!-- Slide #2 -->
+						<div class="slide">
+							<img src="img/coil_induction.gif">
+							<div class="caption">
+								<p>The coil inside a motor is simply wire looped around several times. When current flows through the wire, each one of these loops produces an overlapping magnetic field. The Biot-Savart law allows us to calculate the strength of the magnetic field around any current-carrying wire.
+								</p>
+							</div>
+						</div>
+						<!-- Slide #3 -->
+						<div class="slide">
+							<img src="img/force.gif">
+							<div class="caption">
+								<p>The magnetic field produced by the coil interacts with the magnetic field of the permanent magnet, causing motion. The process is equivalent to bringing two magnets close to each other, depending on their alignment, they either attract or repel each other.
+								</p>
+							</div>
+						</div>
+						<!-- Slide #4 -->
+						<div class="slide">
+							<img src="img/equilibrium.jpg">
+							<div class="caption">
+								<p>After completing half a turn the system attains equilibrium – the magnetic force is balanced out by gravitation. In order to complete one full rotation, the circuit needs to be broken. Therefore, the half insulated end of the wire is used to break the circuit.
+								</p>
+							</div>
+						</div>
+						<!-- Slide #5 -->
+						<div class="slide">
+							<img src="img/brush.jpg">
+							<div class="caption">
+								<p>The half insulated - half stripped end of the wire serves the very same purpose as brushes in commercially sold electric motors. On breaking the circuit, the magnetic force is removed and the coil continues rotating due to the gravity. Once the full turn is completed, the circuit gets reconnected, and the whole cycle starts again.
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- Slides Nav -->
+					<a href="#" class="prev"><img src="img/arrow-prev.png" alt="Arrow Prev"></a>
+					<a href="#" class="next"><img src="img/arrow-next.png" alt="Arrow Next"></a>
+				</div>
+			</div>
+		</div>
+	</article>
+
+	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script src="http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"></script>
+	<script src="js/slides.min.jquery.js"></script>
+	<script src="js/jquery.scrollTo-min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
